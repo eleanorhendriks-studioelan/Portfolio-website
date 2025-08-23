@@ -1,0 +1,176 @@
+/** Eleanor Hendriks 20924258 **/
+
+@media {
+    body {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 30px;
+        background-color: #cc6600;
+        background-image: linear-gradient(#cc6600, #eeeeee);
+    }
+
+/* responsive design */
+
+@media only screen and (max-width:600px) {
+
+    img p {
+        max-width:100%;
+        height:auto;
+    }
+    p {
+        font-size: 0.75em;
+    }
+ }
+
+/* link styling */
+
+a:link {
+    color: darkgray;
+}
+a:visited {
+    color: lightgray;
+}
+a:hover {
+    color: white;
+}
+a:active {
+    color: #cc3300;
+}
+
+/* headers */
+
+h1 , h2 {
+font-family: 'Poller One', sans-serif;
+}
+
+h1 {
+    font-size: 2em;
+    background-color: black;
+    color: white;
+    padding: .375em;
+    margin-top:1em;
+    margin-bottom: 0em;
+}
+
+h2 {
+    font-size: 1em;
+    background-color: black;
+    color: white;
+    display: inline-block;
+    padding: .4em;
+    margin-top: 1.5em;
+    margin-bottom: 0;
+}
+
+#headline {
+    display: block;
+}
+
+/* other element styling */
+
+p , h1 , h2 , ul , img {
+    margin-left: 0;
+    display: block;
+}
+
+img {
+    margin-bottom: 40px;
+    width:100%; height:auto;
+    background: #eeeeee;
+    padding:10px;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+}
+
+p {
+    background-color: #eeeeee;
+    padding: 2em;
+    font-weight: lighter;
+}
+
+li {
+    font-family: 'Poller One', sans-serif;
+    font-size: 0.75em;
+    display: inline;
+    padding: 0.5em;
+    float: right;
+}
+    
+#navigation {
+    display:block;
+    width: 100%;
+    height: 1.5em;
+    background-color: transparent;}
+    margin-top: 0em;
+}
+    
+#aboutme {
+    width: 100%;
+    background-color: transparent;
+    clear: both;
+    position: relative;
+    padding: 1em;
+ }
+    
+#selfportrait {
+    width: 33%;
+    float: left;
+    margin-right: 1em;
+    display: inline;
+    } 
+    
+.biography {
+  background-color: transparent;
+  padding: 1em;
+  padding-left:2em;
+}  
+    
+.contact {
+  /*background-color: #cc6600;*/
+  padding: 2em;
+}
+
+.cntct {
+    color: #cc6600;
+}
+    
+/* table styling */
+    
+table {
+    width: 75%;
+    display: inline-table;
+    float:clear;
+    font-size:0.66em;
+    padding: 1em;
+ }
+    
+th {
+    text-align: left;
+    }
+  
+th, td {
+    padding: 1em;
+    border-bottom: 1px solid #000000;
+}
+
+/* gallery styling */
+    
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33%;
+  padding: 1em;
+}
+
+.column {
+  margin-top: 2em;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
